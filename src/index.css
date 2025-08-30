@@ -1,0 +1,30 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: #212529;
+  color: #adb5bd;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 22px;
+}
+.text1 {
+  font-family: "Asimovian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-a {
+  display: inline-block;
+}
+.nav-a:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+  text-shadow: 0 0 4px #ced4da, 0 0 8px #adb5bd, 0 0 16px #6c757d;
+}
