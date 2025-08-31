@@ -9,6 +9,9 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div>
+      <div class="color"></div>
+      <div className="color1"></div>
+      <div className="color2"></div>
       <Navbar />
       <div className="flex flex-col min-h-screen">
         <BrowserRouter>
